@@ -65,25 +65,45 @@ git push -u origin main
 📦 Suggested Repository Structure
 
 devops-server-automation/
+
 │
+
 ├── scripts/
+
 │   ├── backup.sh
+
 │   ├── cleanup_logs.sh
+
 │   ├── health_check.sh
+
 │   └── restart_service.sh
+
 │
+
 ├── configs/
+
 │   ├── myapp.service
+
 │   ├── logrotate_myapp
+
 │   ├── firewall_rules.sh
+
 │   ├── ssh_hardening.conf
+
 │   └── lvm_setup.sh
+
 │
+
 ├── docs/
+
 │   ├── l1_basic_setup.md
+
 │   ├── l2_intermediate_tasks.md
+
 │   └── l3_advanced_setup.md
+
 │
+
 └── README.md
 
 This repo becomes your complete DevOps automation toolkit.
